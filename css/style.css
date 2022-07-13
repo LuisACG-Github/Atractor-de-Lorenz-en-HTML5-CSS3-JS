@@ -1,0 +1,106 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #943126;
+}
+
+.contGeneral{
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.contenedorDelAtractor{
+	width: 60vw;
+	height: 100vh;
+	text-align: center;
+	float: left;
+}
+
+p{
+	color: white;
+	font-size: 30px;
+	padding: 20px 0;
+}
+
+svg{
+	background: #222;
+	border-radius: 2%;
+	width: 650px; 
+	height: 650px;
+}
+
+stop{
+	stop-color: rgba(215, 40, 40, 0.9);
+	stop-opacity:1px; 
+}
+
+.contenedorDeFunciones{
+	width: 40vw;
+	height: 100vh;
+	float: left;
+	background: white;
+	text-align: center;
+}
+
+.contenedorDeFunciones p{
+	color: #943126;
+	padding: 20px 0 0 0;
+}
+
+form{
+	width: 100%;
+	height: 100%;
+	padding: 20px 60px;
+}
+
+form textarea{
+	width: 49%;
+	padding: 10px;
+	background: none;
+	border: 1px solid #943126;
+	max-width: 49%;
+	min-width: 49%;
+	max-height: 350px;
+	min-height: 350px;
+	overflow-y: scroll;
+	float: left;
+	outline: none;
+}
+
+form .textUno{
+	margin: 0 1% 0 0;
+}
+
+form .textDos{
+	margin: 0 0 0 1%;
+}
+
+form input[type="text"]{
+	width: 100%;
+	margin-top: 10px;
+	padding: 10px;
+	border: 1px solid #943126;
+	float: left;
+	outline: none;
+}
+
+form input[type="button"]{
+	width: 30%;
+	background: #333;
+	border: 0;
+	padding: 10px;
+	color: white;
+	overflow: hidden;
+	margin-top: 10px;
+	outline: none;
+}
+
+form input[type="button"]:hover{
+	background: #943126;
+}
